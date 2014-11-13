@@ -4,11 +4,15 @@
 # but you can also edit it by hand.
 
 meteor-platform
-autopublish
-insecure
 accounts-ui
 accounts-github
 http
 random
 jquery
-
+iron:router
+mrt:bootstrap-3
+mrt:moment
+zimme:select2-bootstrap3-css
+aslagle:reactive-table
+meteorhacks:npm
+natestrauser:select2
