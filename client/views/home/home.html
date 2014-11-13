@@ -1,64 +1,13 @@
 <template name="home">
-	<style>
-		body, html{
-			margin:0;
-			padding:0;
-			width:100%;
-			height:100%;
-		}
-		*{
-			box-sizing:border-box !important;
-		}
-		div#home{
-			width:100%;
-			height:100%;
-			display:block;
-			margin:0;
-			padding:0;
-		}
-		div#home div.fullwidth{
-			width:100%;
-			height:100%;
-			display:block;
-			margin:0;
-			padding:0;
-			background:url('/images/background.jpg');
-			background-repeat:no-repeat;
-			background-position:cover;
-		}
-		.overlay {
-		  position: relative;
-		}
-
-		.overlay:before{
-		  position: absolute;
-		  content:" ";
-		  top:0;
-		  left:0;
-		  width:100%;
-		  height:100%;
-		  display: block;
-		  z-index:0;
-		  background-color: rgba(0,0,255,0.4);
-		}
-		div.loginbox{
-			position:fixed;
-			height:200px;
-			width:300px;
-			left:50%;
-			margin-left:-150px;
-			top:50%;
-			margin-top:-100px;
-			background-color:rgba(0,0,0,0.2);;
-			border-radius:4px;
-			border:rgba(0,0,0,0.4);
-		}
-	</style>
 	<div id="home">
 		<div class="fullwidth overlay">
-			<div class="loginbox">
-				Login
-				{{> login}}
+			<div class="fixer">
+				<div class="logo">
+					<img src="/images/logo.png" alt="">
+				</div>
+				<div class="loginbox">
+					{{> login}}
+				</div>
 			</div>
 		</div>
 	</div>
