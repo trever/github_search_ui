@@ -6,7 +6,6 @@
 meteor-platform
 accounts-ui
 accounts-github
-http
 random
 jquery
 iron:router
@@ -21,4 +20,5 @@ npm-container
 tanis:bootstrap-social
 linto:fontawesome
 service-configuration
+http
 
