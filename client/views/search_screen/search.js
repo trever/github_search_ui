@@ -14,7 +14,7 @@ Template.search.helpers({
 			    { key: 'profile.login', label: 'Username', fn:function(value, object){ return new Spacebars.SafeString('<a href="'+object.profile.html_url+'" target="_blank">'+value+'</a>')}},
 			    { key: 'profile.name', label: 'Name' },
 			    { key: 'profile.company', label: 'Company' },
-			    { key: 'profile.email', label:'Email', fn:function(val){return new Spacebars.SafeString('<a href="mailto:'+value+'">'+value+'</a>')}},
+			    // { key: 'profile.email', label:'Email', fn:function(val){return new Spacebars.SafeString('<a href="mailto:'+value+'">'+value+'</a>')}},
 			    { key: 'profile.location', label: 'Location' },
 			    { key: 'profile.bio', label: 'Bio' },
 			    { 
