@@ -185,7 +185,7 @@ Meteor.methods({
 							user: Meteor.userId()
 						};
 						ooo.profile = r.data;
-						console.log("New Candidate", r.data);
+						// console.log("New Candidate", r.data);
 						candidates.insert(ooo);
 					};
 				});

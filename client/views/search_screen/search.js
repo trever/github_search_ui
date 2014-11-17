@@ -1,5 +1,6 @@
-Tracker.autorun(function(){
-	Meteor.subscribe('candidates', Session.get('querystring'));
+Tracker.autorun(function () {
+  Meteor.subscribe('candidates', Session.get('querystring'));
+  // Meteor.subscribe("messages", Session.get("currentRoomId"));
 });
 
 Template.search.helpers({

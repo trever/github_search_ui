@@ -10,6 +10,6 @@ Meteor.publish('candidates', function(querystring){
 	if (!querystring){
 		return null
 	};
-	querystring = querystring.replace(/\"/g, "");
-	return candidates.find();
+	// querystring = querystring.replace(/\"/g, "");
+	return candidates.find({'qs':querystring});
 });
